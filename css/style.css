@@ -1,0 +1,246 @@
+body {
+    margin: 0 0 0 0;
+}
+
+nav {
+
+    background-color: #EDF2FB;
+    padding: 1px;
+    border-style: solid;
+    border-color: #C1D3FE;
+    border-width: 4px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    color: white;
+}
+
+nav a {
+    padding: 1px 1px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #E2EAFC;
+}
+
+footer {
+    background-color: #ABC4FF;
+    padding: 1px;
+    border-style: solid;
+    border-color: #C1D3FE;
+    border-width: 4px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    color: white;
+}
+
+footer a:hover {
+    background-color: #E2EAFC;
+}
+
+footer a {
+    padding: 1px 1px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.Banner {
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #D7E3FC;
+}
+
+.Banner .Arch {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 20%;
+    border-radius: 20%;
+}
+
+.Banner .Logo {
+    position: absolute;
+    width: 175px;
+    top: 375px;
+    left: 25px;
+}
+
+.Banner .Mascot {
+    position: absolute;
+    width: 175px;
+    top: 375px;
+    right: 25px;
+}
+
+.Statement {
+    background-color: #D7E3FC;
+    padding: 15px;
+    font-family: 'Handjet', cursive, 'Lato', sans-serif;
+    font-size: xx-large;
+    color: royalblue;
+    text-align: center;
+}
+
+.Introduction {
+    background-color: #D7E3FC;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Introduction .Portrait {
+    border-radius: 50%;
+    border: solid;
+    width: 200px;
+    height: 200px;
+}
+
+.About {
+    background-color: #C1D3FE;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: #829356;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #E2EAFC;
+    color: black;
+}
+
+.Index hr {
+    background-color: #CCDBFD;
+    border-width: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin: 0;
+}
+
+.contact-info hr {
+    background-color: #C1D3FE;
+    border-width: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin: 0;
+}
+
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin: 0 0 0 225px;
+}
+
+.one-col {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px;
+    background-color: #C1D3FE;
+}
+
+.card {
+    box-shadow: 0 8px 8px black;
+    background-color: #B6CCFE;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.card:hover {
+    box-shadow: 0 16px 16px black;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+}
+
+.card ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 50px 0 0;
+}
+
+.card dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card li {
+    margin: auto 5px 5px;
+}
+
+.card dt {
+    text-align: center;
+    padding: 0;
+    margin: 6px 0;
+}
+
+.card dd {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+.card form label {
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+.card form input {
+    padding: 10px auto;
+    margin: 5px auto;
+    color: royalblue;
+    font-size: large;
+}
+
+.card form textarea {
+    padding: 10px auto;
+    margin: 5px auto;
+    color: royalblue;
+    font-size: large;
+}
+
+.contact-info {
+    background-color: #C1D3FE;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
